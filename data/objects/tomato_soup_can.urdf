@@ -1,0 +1,14 @@
+<robot name="tomato_soup_can">
+  <link name="tomato_soup_can">
+    <visual>
+      <geometry>
+        <mesh filename="tomato_soup_can_collision.stl" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="tomato_soup_can_collision.stl"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>

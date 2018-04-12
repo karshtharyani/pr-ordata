@@ -1,0 +1,17 @@
+<KinBody name="tomato_soup_can">
+  <Body type="static" name="tomato_soup_can">
+    <Geom type="trimesh" modifiable ='false'>
+      <Render>tomato_soup_can_visual.dae</Render>
+      <Data>tomato_soup_can_visual.dae</Data>
+      <!-- <Data>tomato_soup_can_collision.stl 0.1</Data> -->
+    </Geom>
+    <!-- <Geom type="trimesh" modifiable="false">
+        <Data>tomato_soup_can_collision.stl</Data>
+    </Geom> -->
+    <!-- <Geom type="sphere" group="spheres">
+      <Translation>0 0 0</Translation>
+      <Radius>1.0</Radius>
+    </Geom> -->
+  </Body>
+
+</KinBody>
